@@ -1,0 +1,41 @@
+
+Compulsory Task 2
+
+Give the values of P(B) and P(A and B) in the following scenarios. 
+You are welcome to calculate P(A|B) if you choose to do so:
+
+1. You work for a risk analysis insurer. You have read that this year, out of all 
+drivers on the road, 5% have had accidents under the age of 25. You have also read 
+that 10% of all drivers are under the age of 25. A new client approaches you and 
+states that their age is 22. You want to calculate the chance that this driver has 
+had an accident this year based on their age.
+
+P(B): 10%
+P(A and B): 5%
+
+2. Your friend told you that they would buy you lunch if you can flip a coin and have 
+it land on heads twice. You flip it the first time, and it lands on heads. What are your 
+chances now of it landing on heads again?  
+
+P(B): 50%
+P(A and B): 25%
+
+3. You were always told that knowing Maths helps you to achieve 80% in Computer Science. 
+You read some statistics showing that 30% of all Computer Science graduates took Maths and 
+achieved 80%. Overall, 60% of all Computer Science graduates took Maths. Considering you 
+took Maths, what are your chances of achieving 80%?  
+
+P(B): 30%
+P(A and B): 60%
+
+Using the diagram provided in 14-004-1 Machine learning.pdf, Practical task 2:
+
+Using the diagram, and information learned from the video, state the following:
+    (H): Chances that the person has COVID 19  
+    (E): The positive test result proving a person has COVID 19
+
+Give the values for the following:
+    P(H): 6.5%
+    P(E|H): 96.7%
+    P(E): 7%
+    P(H|E): 89.7%

@@ -1,0 +1,48 @@
+--After doing research, '--' was found to allow comments to be entered
+
+-- First create the table with required columns and characteristics
+CREATE TABLE Student (
+    STU_NUM CHAR(6) PRIMARY KEY,
+    STU_SNAME VARCHAR(15),
+    STU_FNAME VARCHAR(15),
+    STU_INITIAL CHAR(1),
+    STU_STARTDATE DATE,
+    COURSE_CODE CHAR(3),
+    PROJ_NUM INT(2)
+);
+
+-- Insert student info into student table in requested order
+INSERT INTO Student (STU_NUM, STU_SNAME, STU_FNAME, STU_INITIAL, STU_STARTDATE, COURSE_CODE, PROJ_NUM) VALUES
+('01', 'Snow', 'Jon', 'E', '2014-04-05', '201', 6),
+('02', 'Stark', 'Arya', 'C', '2017-07-12', '305', 11),
+('03', 'Lannister', 'Jamie', 'C', '2012-09-05', '101', 2),
+('04', 'Lannister', 'Cercei', 'J', '2012-09-05', '101', 2),
+('05', 'Greyjoy', 'Theon', 'I', '2015-12-09', '402', 14),
+('06', 'Tyrell', 'Margaery', 'Y', '2017-07-12', '305', 10),
+('07', 'Baratheon', 'Tommen', 'R', '2019-06-13', '201', 5);
+
+--Select students with code 305 and write/print
+SELECT * FROM Student
+WHERE COURSE_CODE = '305';
+
+-- Replace student 07's course code with 304
+UPDATE Student
+SET COURSE_CODE = '304'
+WHERE STU_NUM = '07';
+
+--Delete student 'Jamie Lannister' and se logical operators to include all information
+DELETE FROM Student
+WHERE STU_SNAME = 'Lannister' AND 
+      STU_FNAME = 'Jamie' AND 
+      STU_STARTDATE = '2012-09-05' AND 
+      COURSE_CODE = '101' AND 
+      PROJ_NUM = 2;
+
+-- Update student's project number to 14 for those who started after 2016-01-01
+UPDATE Student
+SET PROJ_NUM = 14
+WHERE STU_STARTDATE < '2016-01-01' AND 
+      CAST(COURSE_CODE AS INT) >= 201;
+
+-- Delete table
+DROP TABLE Student;

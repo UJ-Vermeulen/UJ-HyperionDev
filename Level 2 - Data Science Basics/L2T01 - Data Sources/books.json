@@ -1,0 +1,40 @@
+
+{
+    "books": [{
+                "title": "Looking for Alaska",
+                "author": "John Green",
+                "year": 2005,
+                "genre": "coming-of-age"
+              },
+              {
+                "title": "Alice's Adventures in Wonderland",
+                "author": "Lewis Carol",
+                "year": 1865,
+                "genre": "Fantasy"
+              },
+              {
+                "title": "Shadow and Bone",
+                "author": "Leigh Bardugo",
+                "year": 2012,
+                "genre": "Fantasy"
+              },
+              {
+                "title": "The Maze Runner",
+                "author": "James Dashner",
+                "year": 2009,
+                "genre": "Sci-fi"
+              },
+              {
+                "title": "Pride and Prejudice",
+                "author": "Jane Austen",
+                "year": 1813,
+                "genre": "Romance"
+              },
+              {
+                "title": "Divergent",
+                "author": "Veronica Roth",
+                "year": 2011,
+                "genre": "Sci-fi"
+              }]
+
+}

@@ -1,0 +1,43 @@
+
+Question 1
+Define each of the following terms:
+
+    Data: Raw information, facts and figures, without any context, which have little meaning unless organised​
+    Field: A single piece of data within a record, that is used to define and store data. 
+    Record: A collection of related fields that represent one person, place or thing. 
+    File: A collection of related records stored together. 
+
+
+Question 2
+What is a DBMS and what are its advantages?
+
+
+    A DBMS, or database management system, is software that manages the database structure and controls access to previously stored data. 
+    It acts as an intermediary between users and the database, enabling multiple applications or users to interact with a single collection of data​
+
+    Advantages of a DBMS:
+        Data Sharing: Efficient access to well-managed data for multiple users.
+        Data Integration: Provides a clearer, well-integrated view of the operations to the users.
+        Minimised Data Inconsistency: Normalisation reduces redundancy and improves integrity.
+        Improved Data Access: Quick responses that process unexpected queries.
+        Enhanced Decision-Making: Better quality information is generated for informed decisions​
+
+
+Question 3
+Explain the difference between data and information.
+
+    Data: Raw, unprocessed facts.
+    Information: Processed data, organised and interpreted
+
+Question 4
+What is metadata?
+
+Metadata describes the characteristics of data variables, helping organise, utilise, and process the data effectively​
+
+
+Question 5
+Given the file below, answer the following questions:
+    e) How many records does the file contain?
+        4 records 
+    f) How many fields are there per record?
+        5 fields per record 
