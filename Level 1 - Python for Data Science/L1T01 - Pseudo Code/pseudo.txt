@@ -1,0 +1,93 @@
+#Compusary Task 1
+
+'''
+
+
+
+Scenario 1
+
+request a number based input from user
+    if value is not zero
+        allow user to input more numbers until zero is input
+    
+    if value is zero
+        determine the largest value of input numbers
+            Once highest value determined 
+                print value
+
+
+
+
+
+
+            
+Scenario 2
+            
+define name input as first_name
+
+request name input from user
+        If entered print out the input name (first_name) along with "Hello world"
+        else print 'Please enter your name'
+
+
+
+
+
+
+
+Scenario 3       
+
+determine if all numbers are real numbers
+    If numbers are real
+     Add all numbers together (sum or s)
+        once added, divide by total number of values (count or c)
+            formula s/c  
+                print out the arithmetic average 
+    If numbers are not real
+        Print "please enter real numbers"
+                
+             
+
+
+
+
+                
+scenariio 4
+
+input grocery list
+    read list
+        determine which products were not bought 
+            start loop
+                assign a number to each product based on the first letter , following the alphabetic order from 1-27 (assigned value, example A is 1 and B is 2)
+                    if two or more words start with same letter, assign a value to second letter following the alphabetic order from 1-27 (assigned value)
+                        if two or more words have a similar second letter, assign a value to third letter
+                            continue loop until no more values has to be assigned
+                                end loop if all values to each product is different
+            
+sort list based on numerical value
+
+print list based on this numerical value
+
+
+
+
+
+
+
+Scenario 5
+
+Define S as X+y
+Define A as S/2
+Define P as X*Y
+
+Start algorithm
+
+read the X, and Y values
+
+print S , A , P
+
+stop algorithm
+
+
+'''
+
